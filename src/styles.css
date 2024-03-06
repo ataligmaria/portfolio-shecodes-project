@@ -35,7 +35,7 @@ h1 {
 
 .hero h2 {
   font-family: var(--secondary-font);
-  font-weight: medium;
+  font-weight: 300;
   font-size: 24px;
   color: #272142;
   line-height: 2;
