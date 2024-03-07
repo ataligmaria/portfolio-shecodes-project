@@ -68,6 +68,31 @@ p {
   padding: 150px 30px;
 }
 
+.about-me {
+  padding: 80px 30px;
+}
+
+.about-me-content {
+  padding: 75px 50px;
+}
+
+.about-me h1 {
+  font-size: 64px;
+}
+
+.about-me h2 {
+  font-size: 18px;
+  font-family: var(--secondary-font);
+}
+
+.about-me p {
+  line-height: 30px;
+}
+
+.about-me img {
+  border-radius: 15px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 68px;
@@ -87,6 +112,18 @@ p {
 
   .hero {
     padding: 100px 15px;
+  }
+
+  .about-me-content {
+    text-align: center;
+  }
+
+  .about-me h1 {
+    font-size: 51px;
+  }
+
+  .about-me p {
+    margin: 0 0 20px 0;
   }
   .hero h2 {
     font-size: 18px;
