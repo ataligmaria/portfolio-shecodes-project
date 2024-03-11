@@ -30,6 +30,32 @@ p {
   line-height: 30px;
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav img {
+  max-height: 40px;
+}
+
+nav li {
+  display: inline;
+  line-height: 42px;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -76,11 +102,11 @@ p {
   padding: 75px 50px;
 }
 
-.about-contentt h1 {
+.about-content h1 {
   font-size: 64px;
 }
 
-about-content h2 {
+.about-content h2 {
   font-size: 18px;
   font-family: var(--secondary-font);
 }
