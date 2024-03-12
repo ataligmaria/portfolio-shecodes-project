@@ -179,6 +179,16 @@ footer .social-links a:hover {
   color: white;
   background: var(--primary-color);
 }
+
+.footer-description {
+  text-align: center;
+}
+
+.footer-description a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 68px;
